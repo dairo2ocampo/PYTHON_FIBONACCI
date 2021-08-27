@@ -7,11 +7,10 @@
 
 <body>
 <?php
-  
     $cadena = "<h1>dairo</h1>";
-    echo filter_var($cadena,FILTER_SANITIZE_STRING);   
-
+    echo filter_var($cadena,FILTER_SANITIZE_STRING);
 ?>
+	<div align="center"><h1>FORMULARIO INICIAL</h1></div>
     <form action="validar.php" method="POST" enctype="multipart/form-data">
     <input type="text" name="nombre">
     <br><input type="file" name="arch[]">
@@ -21,7 +20,7 @@
     </form>
 
 
-	Mejorando el código ok
+	Mejorando el cï¿½digo ok
 
 </body>
 </html>
